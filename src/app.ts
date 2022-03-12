@@ -8,7 +8,7 @@ const server = http.createServer((req, res)=> {
         res.write('hello world');
         res.end();
     }
-    if (req.url === '/home/23'){
+    if (req.url === '/number'){
         res.write(JSON.stringify([1,2,3]));
         res.end();
     }
